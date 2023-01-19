@@ -1,0 +1,100 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="student addmission form">
+    <title> Student Admission form </title>
+</head>
+<body>
+<h1><strong><i>DEMO SCHOOL</i></strong></h1>
+<h1>Student Admission form</h1>
+<form method="post" action="result.html">
+<fieldset>
+<legend><h1>Child's details</h1></legend>
+<label>First name of child</label>    
+<input type="text" placeholder="enter child's firstname">
+ <br><br>
+<label>Last name of child</label>    
+<input type="text" placeholder="enter child's lastname">
+<br><br>
+<label>Date of birth of child</label>    
+<input type="date" placeholder="enter date of birth">
+<br><br>
+<p>Gender</p>
+<ul><li>
+<label for="radio1">Male  </label>
+<input id="radio1" name="radio" type="radio"></li>
+<li>
+<label for="radio2">Female</label>
+<input id="radio2" name="radio" type="radio"></li>
+    
+</ul>
+<br>
+<label for="std">Select the standard for which you want to apply</label><br>
+<select id="select">
+    <optgroup label="pre primary">
+    <option>Nursey</option>
+    <option>Junior</option>
+    <option>Senior</option>
+        </optgroup>
+    <optgroup label="Primary">
+    <option>Standard 1</option>
+    <option>Standard 2</option>
+    <option>Standard 3</option>
+    <option>Standard 4</option>
+    <option>Standard 5</option>
+    </optgroup>
+    <optgroup label="Secondary">
+    <option>Standard 6</option>
+    <option>Standard 7</option>
+    <option>Standard 8</option>
+    <option>Standard 9</option>
+    <option>Standard 10</option>
+    </optgroup>
+     </select>
+    <p><i><strong> NOTE*</strong><u>Child's previous details (not applicable for nurserys)</u></i></p>
+    <label>Name of the previous school in which your child studied</label>
+<input type="text" placeholder="Previous school's name"><br><br>
+  <label>State the reason for which he was excluded from the school</label><br>
+<input  type="text" placeholder="state the reason"><br><br>
+  <label>Attach a copy of the leaving certificate(L.C)</label>
+<input type="file"><br>
+    </fieldset>
+    
+<br><br>
+<fieldset>
+<legend><h1>Parent's details</h1> </legend>
+<label>Father's name</label>
+<input type="text" placeholder="full name of child's father">
+<br><br>
+<label>Mother's name</label>
+<input type="text" placeholder="full name of child's mother">
+<br><br>
+<label>Father's email id</label>
+<input type="email" placeholder="example123@gmail.com">
+<br><br>
+<label>Mother's email id</label>
+<input type="email" placeholder="example123@gmail.com">
+<br><br>
+<label>Father's mobile number</label>
+<input type="tel" placeholder="(+91)">
+<br><br>
+<label>Mother's mobile number</label>
+<input type="tel" placeholder="(+91)">
+<br><br>
+<label>Family's anual income</label>
+<select><optgroup><option><100000</option>
+        <option>100000-300000</option>
+       <option> 300001-500000</option>
+       <option>500001-700000</option>
+    <option>>700001</option>
+    </optgroup> </select><br><br>
+<input type="submit"><br>
+<input type="reset" value="clear your page"> 
+</fieldset>
+</form>
+<br>
+<br>
+</body>
+</html>
