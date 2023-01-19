@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <title>  structure </title>
+    <style>
+    /* In class selectors we make different classes then we assign value to the html tags by giving property to classes. The classes are written in html as .class*/
+        .lorem{font-style: italic}
+        .ipsum{border-style: dashed;
+        border-color="red";}
+        /*If we want to give effectto lorem but only of h1 then do this........*/
+        h1.lorem{color: bisque}
+        /*1] For ID selectors,we use # in place of . as in class
+          */
+        
+    
+    </style>
+    
+    
+</head>
+<body>
+<!-- points of difference between class and ID
+    1] one html tag can have only one ID
+
+    2] always take a new id for differnt tags
+
+    3] ID has more preference over class i.e if we apply both id and class to the same html tags then the html prefers id over class
+
+    4] If there is a clash between same property between id and class of same html tag then the value of property of id is applied and after that the rest of properties of classes and id's which do not clash gets applied -->
+<h1 class="lorem">What is Lorem Ipsum?</h1>
+<p class="ipsum lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</body>
+</html>
